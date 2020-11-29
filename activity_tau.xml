@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="#444c4d"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".tau">
@@ -11,10 +12,38 @@
         android:layout_width="209dp"
         android:layout_height="149dp"
         android:layout_marginStart="101dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="6dp"
         android:layout_marginEnd="101dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView12"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/tau" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="419dp"
+        android:layout_height="77dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:srcCompat="@drawable/tauname" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="414dp"
+        android:layout_height="355dp"
+        app:srcCompat="@drawable/taudes"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/taucon"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="510dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -2,19 +2,58 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="#1c2c6c"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".digamma">
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="216dp"
-        android:layout_height="128dp"
+        android:layout_width="227dp"
+        android:layout_height="142dp"
         android:layout_marginStart="86dp"
-        android:layout_marginTop="7dp"
         android:layout_marginEnd="109dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView11"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/digamma" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="389dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:srcCompat="@drawable/digammaname" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="411dp"
+        android:layout_height="204dp"
+        app:srcCompat="@drawable/digammades2"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="438dp" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="411dp"
+        android:layout_height="213dp"
+        app:srcCompat="@drawable/digammades"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="352dp"
+        android:layout_height="61dp"
+        app:srcCompat="@drawable/digammacon"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="669dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

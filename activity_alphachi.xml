@@ -2,30 +2,63 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ad172b"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".alphachi">
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="222dp"
-        android:layout_height="109dp"
-        android:layout_marginStart="94dp"
-        android:layout_marginTop="7dp"
-        android:layout_marginEnd="95dp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
+        android:layout_width="209dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="6dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/alphachi" />
 
-    <EditText
-        android:id="@+id/editTextTextPersonName"
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="413dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcCompat="@drawable/alphaname" />
+
+    <ImageView
+        android:id="@+id/imageView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Alpha Chi Rho"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="116dp" />
+        app:srcCompat="@drawable/alphacont"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="529dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="415dp"
+        android:layout_height="309dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:srcCompat="@drawable/alphades" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="411dp"
+        android:layout_height="186dp"
+        android:layout_marginBottom="23dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14"
+        app:srcCompat="@drawable/alphacon" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

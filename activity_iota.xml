@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="#fa4f26"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Iota">
@@ -13,8 +14,47 @@
         android:layout_marginStart="91dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="91dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView10"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/iota" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="401dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:srcCompat="@drawable/iotaname" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="407dp"
+        android:layout_height="282dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="13dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView28"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:srcCompat="@drawable/iotades" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="402dp"
+        android:layout_height="174dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="7dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView26"
+        app:srcCompat="@drawable/iotacon" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
